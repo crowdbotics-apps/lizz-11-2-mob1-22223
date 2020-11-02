@@ -29,9 +29,9 @@ export default class Blank extends React.Component {
     <View>
       <Text style={styles.Text_3}>This is blank screen 0</Text>
       <Button
-        title="Press me!"
+        title="Text changed from code editor"
         color="#a8feff"
-        onPress={() => alert("Pressed!")}
+        onPress={() => alert("Custom text!")}
       />
     </View>
   )
